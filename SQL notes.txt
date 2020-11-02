@@ -1,0 +1,43 @@
+
+natural key
+primary key
+surrogate key
+forgein key - associated 
+composite key - two attributes
+
+43:33
+
+structural query language:
+data query language
+data definition language
+data control language
+data manipulation language
+
+52:26
+
+1:15:52
+
+INT		-WHOLE NUMBERS
+DECIMAL(M, N)	-DECIMAL NUMBERS (EXACT V)
+VARCHAR(X)	-CHAR(X)
+BLOB		-BINARY LARGE OBJECT
+DATE		-YYYY-MM-DD
+TIMESTAMP	-YYYY-MM-DD HH:MM:SS
+
+CREATE TABLE student(
+    student_id INT,
+    name VARCHAR(20),
+    major VARCHAR(20),
+    PRIMARY KEY(student_id)
+);
+
+DESCRIBE student;
+
+DROP TABLE student;
+
+ALTER TABLE student ADD gps DECIMAL(3,2);
+
+ALTER TABLE student DROP column gps;
+
+01:31:06
+
