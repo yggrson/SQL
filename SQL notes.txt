@@ -41,3 +41,29 @@ ALTER TABLE student DROP column gps;
 
 01:31:06
 
+SELECT * FROM student;
+
+INSERT INTO student VALUES(2, 'Kate', 'Sociology');
+
+INSERT INTO student(student_id, name) VALUES(3, 'Claire');
+
+1:38:18
+
+DROP TABLE student;
+
+constrains:
+
+NOT NULL, UNIQUE, DEFAULT, AUTO_INCREMENT
+
+1:48:12
+
+UPDATE student
+SET name = 'Tom', major = 'Biochemitry'
+WHERE major = 'Bio' OR major = 'Chemistry';
+
+DELETE FROM student
+WHERE major = 'Bio' AND major = 'Chemistry';
+
+1:56:12
+
+
