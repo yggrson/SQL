@@ -1,4 +1,4 @@
-
+Trigg
 natural key
 primary key
 surrogate key
@@ -490,7 +490,7 @@ DROP TRIGGER IF EXISTS my_trigger;
 
 3:55:54
 
-
+4:08:34
 
 
 
